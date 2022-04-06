@@ -1,0 +1,29 @@
+body {
+    color: purple;
+}
+
+h1 {
+    background-color :wheat;
+}
+/*this is to style the header background color for each page*/
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+  }
+
+  /*this is to style the html table */
+ 
+ .color {
+    color: black;
+  }
+
+  .color2 {
+    color:blueviolet;
+  }
+
+  #header {
+    font-size: 25px
+  }
+   
