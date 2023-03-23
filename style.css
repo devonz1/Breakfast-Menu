@@ -1,32 +1,77 @@
+/*this is a css external file you add style.css to any header webpage
+ and the entire webpage will be styled with the properties you put 
+ in this file like the properties below*/
+
 body {
-    color: purple;
+  color: black;
+
+}
+
+
+.rcorners {
+  border-radius: 40px;
+
+}
+
+
+
+.col1 {
+  background: rgba(245, 167, 103, 0.74);
+}
+
+
+.col {
+  background: rgba(241, 186, 141, 0.74);
+}
+
+.col2 {
+  background: rgba(212, 145, 89, 0.74);
 }
 
 h1 {
-    background-color :wheat;
+  background-color: rgba(241, 186, 141, 0.74);
 }
+
 /*this is to style the header background color for each page*/
 
-td, th {
-    border: 1px solid black;
-    text-align: left;
-    padding: 10px;
-  }
 
-  /*this is to style the html table */
- 
- .color {
-    color: black;
-  }
 
-  .color2 {
-    color:blueviolet;
-  }
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px;
+}
 
-  #header {
-    font-size: 25px
-  }
-  
-  .color3 { color:black
+/*this is Used to style your table
 
-  }
+  /*this is to style the html table like putting the rows
+  of the table in box form instead of just a table with
+  just the text and no  borders around it this completes the look
+  of the table */
+
+.color {
+  color: black;
+}
+
+.color2 {
+  color: rgb(0, 0, 0);
+
+
+}
+
+.header {
+  font-size: 25px
+}
+
+.color3 {
+  color: black
+    /* this is the name of the class "color3" which will be after 
+    the equal sign and can be used to style any element in html you
+    give the class a name then curly brackets then add the properties.*/
+
+}
+
+img {
+  float: middle;
+}
