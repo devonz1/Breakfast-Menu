@@ -7,6 +7,12 @@ body {
 
 }
 
+#Ordern {
+  margin: 2px;
+  margin-bottom: -16px;
+
+}
+
 
 .rcorners {
   border-radius: 40px;
@@ -64,7 +70,7 @@ th {
   font-size: 25px
 }
 
-.color3 {
+#sub {
   color: black
     /* this is the name of the class "color3" which will be after 
     the equal sign and can be used to style any element in html you
